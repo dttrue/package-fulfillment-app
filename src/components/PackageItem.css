@@ -1,0 +1,76 @@
+.package-item {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.package-detail {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.package-name {
+    font-weight: bold;
+    color: #007BFF;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.package-description {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.package-category, .package-price {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.edit-delete-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.edit-delete-buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.edit-delete-buttons button.edit {
+    background-color: #FFC107;
+    color: white;
+}
+
+.edit-delete-buttons button.edit:hover {
+    background-color: #e0a800;
+}
+
+.edit-delete-buttons button.delete {
+    background-color: #DC3545;
+    color: white;
+}
+
+.edit-delete-buttons button.delete:hover {
+    background-color: #c82333;
+}
+
+.package-id{
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 8px;
+    padding-left: 3px;
+    font-style: italic;
+
+}

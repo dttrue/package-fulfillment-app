@@ -1,0 +1,10 @@
+footer{
+    background-image: url(../imgs/fulfillment.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+   
+}
